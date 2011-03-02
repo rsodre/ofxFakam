@@ -1,8 +1,8 @@
 
-ofxKFakam
+ofxFakam
 ==================
 
-ofxKFakam is an Open Frameworks addon that streams screen data to a fake camera driver.
+ofxFakam is an Open Frameworks addon that streams screen data to a fake camera driver.
 It relys on a QuickTime component that actually stream the screens to any program enabled to read from a camera source.
 
 Works with OpenFrameworks, a cross platform open source toolkit for creative coding in C++.
@@ -58,10 +58,10 @@ To install the component, copy the file coponent/fakam.component to /Library/Qui
 
 If you're using macam, please delete the macam.component from the QuickTime folder for a while. Using both will cause conflicts. (See issues below)
 
-ofxKFakam addon Installation
+ofxFakam addon Installation
 ------------
 
-To use ofxKFakam, first you need to download and install OpenFrameworks.
+To use ofxFakam, first you need to download and install OpenFrameworks.
 [http://www.openframeworks.cc/](http://www.openframeworks.cc/)
 
 Then download ofxFakam sources from [http://github.com/rsodre/ofxFakam/zipball/master](http://github.com/rsodre/ofxFakam/zipball/master) or, alternatively, you can use git clone:
