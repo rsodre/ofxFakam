@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Camera video settings</key>
+	<string>Настройки видео</string>
+	<key>Change camera</key>
+	<string>Выбрать камеру</string>
+	<key>Download</key>
+	<string>Загрузить</string>
+	<key>Download Media?</key>
+	<string>Download Media?</string>
+	<key>Download media</key>
+	<string>Download media</string>
+	<key>No</key>
+	<string>Нет</string>
+	<key>Pause</key>
+	<string>Пауза</string>
+	<key>Pause camera video</key>
+	<string>Pause camera video</string>
+	<key>Play</key>
+	<string>Включить</string>
+	<key>Play camera video</key>
+	<string>Проиграть видео с камеры</string>
+	<key>Record live video to a QuickTime movie</key>
+	<string>Запись видео в QuickTime</string>
+	<key>Record movie</key>
+	<string>Запись видео</string>
+	<key>Save current image</key>
+	<string>Сохранитть текущую картинку</string>
+	<key>Save image</key>
+	<string>Сохранить изображение</string>
+	<key>Save like this</key>
+	<string>Save like this</string>
+	<key>Settings</key>
+	<string>Настройки</string>
+	<key>Status: A problem occurred - please check files</key>
+	<string>Статус: Произошла ошибка - пожалуйста проверьте файлы</string>
+	<key>Status: CPU too busy</key>
+	<string>Статус: Процессор занят</string>
+	<key>Status: Camera not found (this shouldn't happen)</key>
+	<string>Статус: Камера не найдена (этого не должно было быть)</string>
+	<key>Status: Camera switch failed</key>
+	<string>Статус: Не удалось включить камеру</string>
+	<key>Status: Camera unplugged</key>
+	<string>Статус: Каера отключена</string>
+	<key>Status: Camera used by another app</key>
+	<string>Статус: Камера используется другим приложением</string>
+	<key>Status: Connected to </key>
+	<string>Статус: Подключено к </string>
+	<key>Status: Downloading number %i</key>
+	<string>Статус: Downloading number %i</string>
+	<key>Status: Internal error (this shouldn't happen)</key>
+	<string>Статус: Внутренняя ошибка (этого не должно было быть)</string>
+	<key>Status: Media downloaded from camera</key>
+	<string>Статус: Media downloaded from camera</string>
+	<key>Status: Media not downloaded</key>
+	<string>Статус: Media not downloaded</string>
+	<key>Status: No Camera</key>
+	<string>Статус: Камера отсутствует</string>
+	<key>Status: Not enough USB bus power</key>
+	<string>Статус: Недостаточно питания на шине USB</string>
+	<key>Status: Not enough bandwidth</key>
+	<string>Статус: Нехватка пропускной способности шины USB</string>
+	<key>Status: Out of memory</key>
+	<string>Статус: Нехватка памяти</string>
+	<key>Status: Paused</key>
+	<string>Статус: Пауза</string>
+	<key>Status: Pausing</key>
+	<string>Статус: На паузу</string>
+	<key>Status: Playing</key>
+	<string>Статус: Снимает</string>
+	<key>Status: USB communication problem</key>
+	<string>Статус: Проблемы передачи по шине USB</string>
+	<key>Status: Unknown error (this shouldn't happen)</key>
+	<string>Статус: Неизвестная ошибка (этого не должно было быть)</string>
+	<key>Status: Unsupported</key>
+	<string>Статус: Не поддерживается</string>
+	<key>Switch to next camera</key>
+	<string>Переключиться на следующую камеру</string>
+	<key>The camera you just plugged in contains %i stored images. Do you want to download them to your computer?</key>
+	<string>The camera you just plugged in contains %i stored images. Do you want to download them to your computer?</string>
+	<key>The camera you just plugged in contains one stored image. Do you want to download them to your computer?</key>
+	<string>The camera you just plugged in contains one stored image. Do you want to download them to your computer?</string>
+	<key>Yes</key>
+	<string>Да</string>
+</dict>
+</plist>

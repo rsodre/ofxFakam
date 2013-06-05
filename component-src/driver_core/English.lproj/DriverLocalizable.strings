@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<!--
+macam - webcam app and QuickTime driver component
+Copyright (C) 2002 Matthias Krauss (macam@matthias-krauss.de)
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+$Id: MyCameraCentral.m,v 1.1.1.1 2002/05/22 04:57:17 dirkx Exp $
+-->
+<plist version="0.9">
+<dict>
+	<key>Auto gain</key>
+	<string>Auto gain</string>
+	<key>Automatic</key>
+	<string>Automatic</string>
+	<key>CPiA-based camera</key>
+	<string>CPiA-based camera</string>
+	<key>Camera</key>
+	<string>Camera</string>
+	<key>CameraErrorBusy</key>
+	<string>Camera used by
+another application</string>
+	<key>CameraErrorInternal</key>
+	<string>Internal error</string>
+	<key>CameraErrorDecoding</key>
+	<string>Image data decoding error</string>
+	<key>CameraErrorUSBNeedsUSB2</key>
+	<string>Sorry, this camera requires USB2</string>
+	<key>CameraErrorNoBandwidth</key>
+	<string>Not enough
+USB bandwidth</string>
+	<key>CameraErrorNoCam</key>
+	<string>No camera</string>
+	<key>CameraErrorNoMem</key>
+	<string>Out of memory</string>
+	<key>CameraErrorNoPower</key>
+	<string>Not enough power
+to operate camera
+on USB bus</string>
+	<key>CameraErrorOK</key>
+	<string>OK</string>
+	<key>CameraErrorTimeout</key>
+	<string>CPU too busy</string>
+	<key>CameraErrorUSBProblem</key>
+	<string>USB communication problem</string>
+	<key>CameraErrorUnimplemented</key>
+	<string>Not supported</string>
+	<key>Compress:</key>
+	<string>Compress:</string>
+	<key>Dummy camera for user feedback</key>
+	<string>Dummy camera for user feedback</string>
+	<key>Flip</key>
+	<string>Flip</string>
+	<key>Format:</key>
+	<string>Format:</string>
+	<key>Fps:</key>
+	<string>Fps:</string>
+	<key>Gain:</key>
+	<string>Gain:</string>
+	<key>Gamma:</key>
+	<string>Gamma:</string>
+	<key>Image Data</key>
+	<string>Image Data</string>
+	<key>Indoor</key>
+	<string>Indoor</string>
+	<key>Linear</key>
+	<string>Uncorrected</string>
+	<key>Outdoor</key>
+	<string>Outdoor</string>
+	<key>STV680-based camera</key>
+	<string>Dual mode camera</string>
+	<key>Save as defaults</key>
+	<string>Save as defaults</string>
+	<key>Shutter:</key>
+	<string>Shutter:</string>
+	<key>UnknownError</key>
+	<string>Unknown error</string>
+	<key>WB</key>
+	<string>WB</string>
+</dict>
+</plist>

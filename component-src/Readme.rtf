@@ -1,0 +1,356 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset77 Helvetica;\f1\fswiss\fcharset77 Helvetica-Bold;\f2\fswiss\fcharset77 ArialMT;
+}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww17340\viewh14720\viewkind0
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\qc
+
+\f0\fs36 \cf0 macam: application and component\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\qc
+
+\fs28 \cf0 Mac OS X support for many USB webcams
+\fs36 \
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\qc
+
+\fs24 \cf0 \
+Version 0.9.2, 2008-05-29\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+
+\f1\b \cf0 \
+\
+Disclaimer\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+
+\f0\b0 \cf0 \
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. It's included in the "License.txt" file in this release.\
+\
+We tried not to violate any legal rights of anyone else. If we did, please contact us. Contact information is at the very end of this document.\
+\
+When you decide to use this software, you do it on your own risk. Using this software might cause damage to your software and even to your hardware.\
+\
+Keep in mind this is a beta version, which means you could encounter problems while using it. It works pretty well
+\f1\b \
+\
+Getting started
+\f0\b0 \
+\
+Macam consists of two parts that can be used independently: A standalone application ("macam") and a QuickTime driver component that allows you to use your webcam with other applications ("macam.component"). Starting the application is simple: Double-click the application icon. To install the component copy "macam.component" to the "/Library/QuickTime/" folder. The application and component are independent and do not need each other to be installed. \
+\
+These are recommended steps:\
+(1) Plug the camera into a USB port directly on the computer; if this works then go ahead and try a hub if you want\
+(2) Run the macam application to make sure that your camera, computer, and USB connection are all working properly and together. \
+(3) Copy the "macam.component" to the "/Library/QuickTime/" folder\
+(4) Use a simple video viewer to verify that the component is installed correctly (HackTVCarbon, BTV, VideoViewer, etc)\
+\
+Important: This text is not a complete usage guide. To see more detailled and complete information on installation, uninstallation and usage, select "macam Help" from the "Help" menu from within the application. You will also find more information on troubleshooting and how to write bug reports there. You can find a list of various cameras and their support status at the macam home page (see the bottom of this text for more details).\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+
+\f1\b \cf0 Contacting the authors\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+
+\f0\b0 \cf0 \
+When you encounter problems or have questions, there are some places to look first before contacting the authors:\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\li720\fi-720\ql\qnatural
+\cf0 	\'a5 The application's help facility\
+	\'a5 The macam home page ({\field{\*\fldinst{HYPERLINK "http://webcam-osx.sourceforge.net"}}{\fldrslt http://webcam-osx.sourceforge.net}}) - including the {\field{\*\fldinst{HYPERLINK "http://webcam-osx.sourceforge.net/faqs.html"}}{\fldrslt FAQ}}\
+	\'a5 The Help forum ({\field{\*\fldinst{HYPERLINK "http://sourceforge.net/forum/forum.php?forum_id=145156"}}{\fldrslt http://sourceforge.net/forum/forum.php?forum_id=145156}}) \
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+If your problem is not addressed there (or if simply everything works fine) feel free to write about it. We will try to reply to all email requests (except for questions whose answers can easily be found in the sources mentioned above), but this is a hard job: Usually we spend a considerable amount of time replying to emails each day (reducing the available time for further development). So replies might take a while. If we don't reply, please don't take it personally - it's not meant to be impolite. If it's important, just mail again. You can find contact information at the end of this document.\
+\
+Actually, if you have a camera, please let us know if it works or not, by posting in the following forum. Include camera specifics, the name, model, vendor and product IDs (from the USB pane of the System Profiler, choose "About This Mac" in the Apple menu and then click on "More Info..."), which version of macam you have, and also the Mac OS X version used.\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\li720\fi-720\ql\qnatural
+
+\f2\fs26 \cf0 	\'a5 Camera Reports ({\field{\*\fldinst{HYPERLINK "http://sourceforge.net/forum/forum.php?forum_id=755290"}}{\fldrslt http://sourceforge.net/forum/forum.php?forum_id=755290}})
+\f0\fs24 \
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+
+\f1\b \cf0 What's new?
+\f0\b0 \
+\
+Here's a list of most changes in macam 0.9.2:\
+\
+\pard\pardeftab720\ql\qnatural
+\cf0 	\'a5 Updated to latest GSPCA code (2007-12-24 -- all gspca cameras hopefully supported now)\
+	\'a5 Removed unnecessary NSLock for all drivers (Leopard compatability)\
+	\'a5 Fixed image time-stamp for most drivers (better audio synchronization)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\ql\qnatural\pardirnatural
+\cf0 \
+\pard\pardeftab720\ql\qnatural
+\cf0 	\'a5 Display fps (and received fps in cvs-build)\
+	\'a5 Component reports only the camera, not device and input\
+	\'a5 Add image flip/rotation/invert option wherever possible\
+	\'a5 Can now delete previously saved camera settings\
+	\'a5 Settings drawer is the correct size, properly adjustable\
+	\'a5 Space-bar toggles play/pause\
+	\'a5 Fixed bug where top of image was being cut off\
+	\'a5 Added debug drawer (only works in Debug builds)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\ql\qnatural\pardirnatural
+\cf0 \
+\pard\pardeftab720\ql\qnatural
+\cf0 	\'a5 Added support for PS3 Eye (first platform!), requires USB2\
+	\'a5 Fix flickering on OV519 (EyeToy)\
+	\'a5 Added support for Creative Live! Cam Notebook (VF0400)\
+	\'a5 Added support for Creative Live! Cam Vista IM (VF0420)\
+	\'a5 Added patch for Etoms cameras from Andrey Gruzdev\
+	\'a5 Added Hercules Silver Classic\
+	\'a5 Added Max camera (0x0c45:0x6011)\
+	\'a5 Added Creative Webcam Vista Pro (0x4029)\
+	\'a5 Added basic NW800/802 support (Zoomcam 1597, perhaps others)\
+	\'a5 Added QuickCam Cool (0x08af)\
+	\'a5 Added QuickCam for Notebooks (0x08dd)\
+	\'a5 Added patch for SE401 auto-brightness\
+	\'a5 PAC7311 cameras now should work (some JPEG artifacts)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\ql\qnatural\pardirnatural
+\cf0 \
+\pard\pardeftab720\ql\qnatural
+\cf0 	\'a5 PAC207 allows image scaling up to 640 x 480 (VGA)\
+	\'a5 PAC207 allows control of gain and shutter registers, uncompressed images\
+	\'a5 PAC207 auto-brightness has been improved (tracks brightness setting)\
+	\'a5 PAC207 image quality has been improved\
+	\'a5 PAC207 cameras now respond to button presses\
+	\'a5 PAC207 can now be paused and resumed without resetting camera\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+Here's a list of most changes in macam 0.9.1:\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 	\'a5 Added support for Pico Intruments iMage webcam\
+	\'a5 Trust WB-3400T and similar cameras (0x60af) work properly now\
+	\'a5 Added Microsoft LifeCam VX-1000 and VX-3000, flickering at first, but stabilizes\
+	\'a5 Added Creative Live! Cam Notebook Pro (VF0250) and similar cameras\
+	\'a5 Added Creative Vista (D) to OV519Driver, needs testing\
+	\'a5 Added Lenovo USB Webcam (40Y8519) for testing\
+	\'a5 Added VC032x driver (Logitech Orbicam, Sony notebook built-ins), needs testing\
+	\'a5 Added SPC 315NC (ZC030x)\
+	\'a5 Added support for Creative Live! Cam Vista IM (needs testing)\
+	\'a5 Added support for Skype C7 camera (needs testing)\
+	\'a5 Updated gspca code to 2007-01-10\
+	\'a5 Added bandwidth-reduction capability, works for PAC207, OV519, ZC030x\
+	\'a5 Added all outstanding patches\
+	\'a5 Added snapshot button to SPCA561A cameras, properly debounced\
+	\'a5 Fixed byte-order issue for VicamDriver\
+	\'a5 Added auto-gain for spca5xx cameras, should work for many\
+	\'a5 Added patch for VV6540 sensor (QuickCam Messenger shutter control)\
+	\'a5 Can now disable component on a Vendor & Product ID basis (use macam for one camera, OEM driver for another)\
+	\'a5 Added support for hue and flicker control\
+	\'a5 Improved the settings drawer user interface\
+	\'a5 Settings drawer will appear on the side with more space\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+Here's a list of most changes in macam 0.9.0:\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 	\'a5 fixed problem with Skype 2.0.0.6\
+	\'a5 fixed rare crash with iChat\
+	\'a5 another attempt at fixing the USB band width problem with QuickCam STX\
+	\'a5 report a better name for Skype (instead of "Camera")\
+	\'a5 added an improved French localization file\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 Here's a list of most changes in macam 0.8.9:\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 	\'a5 fixed a hanging bug on Intel Macs!\
+	\'a5 now works with some hubs in some situations!\
+	\'a5 added some more Logitech cameras (STX Plus, Notebooks Deluxe)\
+	\'a5 added Rainbow Color Webcam (SONiX, 0x0c45:0x60fe)\
+	\'a5 Sony EyeToy should work on all supported versions of Mac OS X now\
+	\'a5 higher frame-rates supported for some Philips-based cameras (QuickCam 4000, SPC 900NC etc.)\
+	\'a5 adjusted the compression slider for ZC030x-based cameras\
+	\'a5 the new QuickCam Zoom may work now\
+	\'a5 the AOX:0x1000 is in the right place (but probably needs more work)\
+	\'a5 smoother operation of SonixDriver\
+	\'a5 bandwidth negotiation installed, should reduce USB Communication Errors\
+	\'a5 (developers) only requires the default 10.4u SDK for building now\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 Here's a list of most changes in macam 0.8.8:\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 	\'a5 ZC030x driver appears to not crash anymore (Quickcam Communicate STX)\
+	\'a5 SN9Cxxx driver appears to not crash anymore (Philips SPC600NC anyway)\
+	\'a5 compression for ZC030x might work\
+	\'a5 added downloading of images for Philips FunCam (DMVC 300K)\
+	\'a5 added Trust WB-3400T\
+	\'a5 fixed SPC200NC inversion\
+	\'a5 macam now quits when main window is closed\
+	\'a5 added copy functionality to main  window\
+	\'a5 added preliminary EyeToy support\
+	\'a5 added more QuickCam Express cameras\
+	\'a5 added an spca561 cam\
+	\'a5 added a sonix cam\
+	\'a5 fixed debug messages in Messenger driver\
+	\'a5 fixed a byte-order quality issue for many cameras on Mac Intel (in BayerConverter!)\
+	\'a5 fixed rotation for Veo Stingray\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+Here's a list of most changes in macam 0.8.7:\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\li720\fi-720\ql\qnatural
+\cf0 	\'a5 Fixed (hopefully) a serious QuickTime resource bug at the request of Apple\
+	\'a5 OV511(+) has reverted to 0.8.4 status and should work now (oops)\
+	\'a5 TV8532-based cameras should work now\
+	\'a5 SPCA501-based cameras should work now\
+	\'a5 SPCA508-based cameras should work now\
+	\'a5 ZC030x-based cameras should work now\
+	\'a5 Ezonics iContact should work now\
+	\'a5 All Logitech QuickCam Express (all 4 varieties) should work now\
+	\'a5 Sonix-based cameras might work now\
+	\'a5 Some cameras may still have problems on Intel-based Macs, please report\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 Here's a list of most changes in macam 0.8.6:\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\li720\fi-720\ql\qnatural
+\cf0 	\'a5 SPCA561A-based webcams actually work now (some Quickcam Express)\
+	\'a5 OV519-based camera support has been improved, please report (possibly Eyetoy)\
+	\'a5 ZC030x-based cameras may work, please report\
+	\'a5 Some cameras may still have problems on Intel-based Macs, please report\
+	\'a5 Other occasional bugs have been fixed\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+Here's a list of most changes in macam 0.8.5:\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\li720\fi-720\ql\qnatural
+\cf0 	\'a5 Both the application (macam) and the Quicktime component (macam.component) are Universal now\
+	\'a5 However some cameras may still have problems on Intel-based Macs, please report\
+	\'a5 Added support for Pixart PAC207-based webcams\
+	\'a5 Added preliminary support for Sunplus SPCA561A-based webcams, may or may not work with all cameras.\
+	\'a5 Added support for Logitech QuickCam Messenger, Messenger Plus, and Communicate webcams\
+	\'a5 Added a GenericDriver to the infrastructure to simplify further development\
+	\'a5 Added a SPCA5XXDriver to allow the inclusion of code directly from the spca5xx Linux driver\
+	\'a5 Please note the existence of a companion project (wacaw), a command-line grab utility\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 Here's a list of most changes in macam 0.8.4:\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\li720\fi-720\ql\qnatural
+\cf0 	\'a5 Added support for SQ905 based cameras (0x2770:0x9120), although compressed images are not right yet\
+	\'a5 Added rudimentary support for QuickCam VC, image gain issues need to be fixed\
+	\'a5 Added support in the driver and application for downloading movies (without sound) [works with SQ905 cameras]\
+	\'a5 Upgraded the Xcode project to use native targets (necessary for universal binaries)\
+	\'a5 Universal binaries are now produced, although they probably don't work yet, testing reports would be welcome\
+	\'a5 Added the "-lSystem" flag when linking so that hopefully code will work on 10.1 and 10.2, again reports are welcome\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+Here's a list of most changes in macam 0.8.3:\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\li720\fi-720\ql\qnatural
+\cf0 	\'a5 Added changes to save in different formats (JPEG, TIFF, PNG, GIF, BMP)\
+	\'a5 Changed Sweda SmartCam to use Sonix driver (same as Vivicam 3350B actually)\
+	\'a5 Added Logitech QuickCam Notebook Pro\
+	\'a5 Added QuickCam Orbit patch, should now be able to pan & tilt the camera!\
+	\'a5 Added a number of missing [super dealloc] possible memory leaks\
+	\'a5 Removed compiler warnings, (after upgrading to gcc 4.0)\
+	\'a5 Added patch to avoid printing unnecessary log messages that central is initialized\
+	\'a5 Added patch to include the number of the dummy camera\
+	\'a5 Added a number of cameras to Timon, Kiara, KiaraFlipped drivers: Philips PCVC720K/40 (ToUCam XS), Logitech QuickCam Zoom (new model), Samsung MPC-C10, Samsung MPC-C30, Creative Labs Webcam Pro Ex, Sotec Afina Eye, AME Co. Afina Eye, Visionite VCS-UM100, Visionite VCS-UC300. Feedback as to whether these do or do not work is always appreciated!\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 Here's a list of most changes in macam 0.8.2:\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\li720\fi-720\ql\qnatural
+\cf0 	\'a5 Improved support for the Vivitar ViviCam 3350B camera (delete images from camera)\
+	\'a5 Experimental support for a number of SPCA500A cameras\
+	\'a5 Patch # 862936 - Patch for MySE401Driver (Kensigton stutters)\
+	\'a5 Patch # 738976 - Added support for Logitech QuickCam Zoom USB (046d/08b3)\
+	\'a5 Patch # 849697 - Added support for AIPTEK Pocket DV (0x08ca/0x0103)\
+	\'a5 Patch # 911662 - Added support for Creative Labs Webcam 5 (early model) (0x041e/0x400c)\
+	\'a5 Patch # 966497 - Support for unique quicktime camera IDs, VDGetUniqueIDs() [optional]\
+	\'a5 support for deleteLast in base driver\
+	\'a5 added items to Control menu\
+	\'a5 added delete functionality to MyController\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+Here's a list of the most important changes in macam 0.8.1b1:\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\li720\fi-720\ql\qnatural
+\cf0 	\'a5 Added support for the Vivitar ViviCam 3350B camera (image downloads only)\
+	\'a5 Some improvements to QuickCam Express functionality\
+	\'a5 Some fixes and improvements to the SPCA504 driver (Mustek GSmart MINI, Megapixel Camera)\
+	\'a5 Added controls for B&W and LED for Philips ToUCam (and possibly Vesta as well)\
+	\'a5 Improved image download facility\
+	\'a5 Added some infrastructure for ICA (Image Capture Architecture) compatibility\
+	\'a5 Many behind-the-scenes improvements\
+	\'a5 Improved compatibility with third-party applications\
+	\'a5 Various performance and stability improvements\
+	\'a5 More bug fixes\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+Here's a list of the most important changes in macam 0.8:\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\li720\fi-720\ql\qnatural
+\cf0 	\'a5 Added support for some Omnivision OV511/OV511+-based cameras\
+	\'a5 Added support for some Sunplus SPCA500A-based cameras\
+	\'a5 Added support for some Sunplus SPCA504A-based cameras (e.g. Aiptek MiniCam, Aiptek Smart MegaCam)\
+	\'a5 Added support for some Sonix SN9C2028-based cameras (e.g. AEL/MultiCam DC-31UC)\
+	\'a5 Added support for some AOX/Endpoints SE401-based cameras (e.g. Kensington VideoCAM series)\
+	\'a5 Added support for Logitech QuickCam Pro (beige focus ring)\
+	\'a5 Added support for Logitech QuickCam Pro 4000\
+	\'a5 Added video capture feature\
+	\'a5 Added preferences panel for choosing parameters of snapshots and videos\
+	\'a5 Added horizontal mirroring feature for many cameras\
+	\'a5 Reduced video latency for some cameras\
+	\'a5 Fixed a compatibility problem with Jaguar and some Logitech and Philips cameras \
+	\'a5 Improved compatibility with Classic (reduced occurences of "Camera used by another application")\
+	\'a5 Improved compatibility with Mac OS X (e.g. login screen problems, SecurityServer crashes)\
+	\'a5 Improved compatibility with third-party applications\
+	\'a5 Various performance and stability improvements\
+	\'a5 Zillions of bug fixes\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+
+\f1\b \cf0 Known problems
+\f0\b0 \
+\
+There are some known limitations and problems. We are currently trying to find the causes and fix them. If you think you might help solving this and other problems, please tell the author(s).\
+\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\li720\fi-720\ql\qnatural
+\cf0 	\'a5 There are issues with some cameras on Intel-based Macs, please report if encountered\
+	\'a5 The Vivitar ViviCam 3350B video doesn't work properly\
+	\'a5 SQ905 compressed images are not decoded properly\
+\
+The following may still be issues as well: \
+\
+	\'a5 Some QuickCam Express and QuickCam Web show a garbled image\
+	\'a5 VICAM-based cameras (such as the 3Com HomeConnect) show poor image quality in some video modes\
+	\'a5 Sonix SN9C2028-based cameras may show image artefacts\
+	\'a5 Some SPCA504A-based cameras might randomly fail to transfer all stored images (retrying might help)\
+	\'a5 Some SPCA504A-based cameras sometimes fail to recognize stored images (plug in the camera before launching macam to solve this)\
+	\'a5 In some cases, cameras might show brightness oscillation when automatic gain control is enabled\
+	\'a5 Transfer of media other than images is not implemented for most cameras\
+	\'a5 Some cameras still show the video slightly delayed.\
+	\'a5 Transfer of stored images may be slow for some cameras\
+	\'a5 Macam may exhibit some seconds of unresponsiveness when certain cameras are connected\
+	\'a5 Some cameras may freeze after a longer period of use (unplug the camera to reset - if your camera has batteries, it might also be necessary to re-insert them while the camera is not connected to your Mac)\
+	\'a5 Some QuickTime applications don't show the webcam specific panel in their video input settings. Workaround to set values for these programs: Set them in the macam application and set these as default settings. They are shared among all camera applications. \
+	\'a5 There are problems when putting your machine to sleep while the camera is being used. Avoid the sleep mode or quit grabbing applications before putting your machine to sleep.\
+	\'a5 Various cosmetic inconsistencies and minor problems  - simply ignore them...\
+	\'a5 Sometimes the Compression panel of the QuickTime Video input dialog shows the uncomressed type twice. At least one of them works.\
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+\pard\tx560\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+
+\f1\b \cf0 Contact\
+\
+{\field{\*\fldinst{HYPERLINK "http://webcam-osx.sourceforge.net"}}{\fldrslt http://webcam-osx.sourceforge.net}} 
+\f0\b0 - the macam home page.
+\f1\b  
+\f0\b0 This page should be your first stop for new versions, latest information, camera lists, FAQ and general information.\
+\
+{\field{\*\fldinst{HYPERLINK "http://www.sourceforge.net/projects/webcam-osx"}}{\fldrslt 
+\f1\b http://www.sourceforge.net/projects/webcam-osx}} - macam sourceforge project page. This page gives you an overview about the development project. It includes a list of developers, information about access to the CVS and more. Also good for downloading the occasional cvs-builds. \
+\
+
+\f1\b hxr@users.sourceforge.net
+\f0\b0  - an email contact. You can find more email addresses and information on the developers of the macam project at the macam sourceforge project page, but this contact will forward emails to the appropriate developer.
+\f1\b  
+\f0\b0 Before you send an email, please read the section "contacting the authors" in this text. Feel free to donate money and/or webcams to support further development. \
+}

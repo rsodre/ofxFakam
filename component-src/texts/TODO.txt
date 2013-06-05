@@ -1,0 +1,49 @@
+Fix all (c) and license info
+Get Matthias to pick a (c) and a name
+Make sure that things like the license
+	are copied into the binary app build.
+Ascii text file with supported drivers
+Write scripts to generate .dmg files and
+    automate version numbering based on 
+    cvs tags
+Fixup all .cvsignore files and/or collect them
+    in a CVSROOT/cvsignore file for things such
+    as .DS_Store
+Domain - would it make sense to make this a 
+    org.sourceforge.webcam-os in the application
+    settings field - or does the latter not
+    do anything but has to be unique; in which
+    case de.matthias-krauss.macam is fine and
+    a nice historic reminder. (Dirk, you're 
+    right. I've changed it to net.sourceforge.
+    webcam-osx.common and .application. If there
+    we need more bundle names in the future,
+    they can be distinguished by the last part
+    of their name. --Matthias, 22.1.2003)
+
+Added a whole slew of SPCA50x based camears in
+MyIntelPCCameraPro. These are not ready for
+public consumption. Perhaps we need an iface in
+which we can limit to just known/production cameras
+and an extra one where you can run time try out
+a driver with a camera by fiddling the numbers.
+-> the MyIntelPCCameraPro.h/m files need to be
+   split up and/or we need a slightly more
+   clever recognition system to cope with
+   lists rather than single id pairs. (I'm afraid
+   most of the SPCA50x cameras will not work this
+   way. The 500A, 501, 504A, 505, 506 and 508 have
+   some things in common, but nevertheless, they
+   differ substantially. For some of them, there
+   are even different firmwares to handle separately.
+   I've merged some of the vendor/product-only
+   classes into their parent classes by using the
+   new dictionary-based matching mechanism. I'm also
+   sceptical concerning the user-side fiddling of the
+   vendor/product id's - if they can't compile macam
+   on their own, this might result in very high email
+   traffic - at least too much for me... -Matthias,
+   22.1.2003)
+     
+$Id: TODO.txt,v 1.6 2007/02/18 06:06:43 hxr Exp $
+

@@ -1,0 +1,13 @@
+/.cvsignore/1.1.1.1/Wed May 22 04:56:40 2002//
+/COPYING.txt/1.1.1.1/Wed May 22 04:56:40 2002//
+/README/1.12/Thu Jan 10 06:40:31 2008//
+D/app_specific////
+D/cameras////
+D/component_specific////
+D/driver_core////
+D/ica_specific////
+D/macam.pbproj////
+D/macam.xcodeproj////
+D/sensors////
+D/texts////
+D/utilities////

@@ -1,0 +1,1261 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = "CVS Build";
+		activeExecutable = F5985BEC0E5DE12800D265C8 /* app */;
+		activeTarget = F535ED6D08DB3971007943DA /* all */;
+		addToTargets = (
+			F535ECFC08DB3970007943DA /* ica module */,
+			F535EC0808DB3970007943DA /* app */,
+			F535EC9708DB3970007943DA /* component */,
+		);
+		breakpoints = (
+			F54AFC8C0EA78DF9002BBD07 /* OV76xx.m:31 */,
+			F54AFC8E0EA78DFD002BBD07 /* OV76xx.m:42 */,
+			F54AFC970EA78F3D002BBD07 /* SonixDriver.m:1566 */,
+		);
+		breakpointsGroup = F583DD730FB104B70063F263 /* XCBreakpointsBucket */;
+		codeSenseManager = F5985C220E5DE14A00D265C8 /* Code sense */;
+		executables = (
+			F5985BEC0E5DE12800D265C8 /* app */,
+			F5985BED0E5DE12800D265C8 /* ica module */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					338,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 275591944;
+			PBXWorkspaceStateSaveDate = 275591944;
+		};
+		perUserProjectItems = {
+			F556D855106D4F90000389F5 /* PBXBookmark */ = F556D855106D4F90000389F5 /* PBXBookmark */;
+			F556D9FB106D5C57000389F5 /* PBXTextBookmark */ = F556D9FB106D5C57000389F5 /* PBXTextBookmark */;
+			F556D9FC106D5C57000389F5 /* PBXTextBookmark */ = F556D9FC106D5C57000389F5 /* PBXTextBookmark */;
+			F556D9FE106D5C57000389F5 /* PBXTextBookmark */ = F556D9FE106D5C57000389F5 /* PBXTextBookmark */;
+			F556D9FF106D5C57000389F5 /* PBXTextBookmark */ = F556D9FF106D5C57000389F5 /* PBXTextBookmark */;
+			F556DA01106D5C57000389F5 /* PBXTextBookmark */ = F556DA01106D5C57000389F5 /* PBXTextBookmark */;
+			F556DA02106D5C57000389F5 /* PBXTextBookmark */ = F556DA02106D5C57000389F5 /* PBXTextBookmark */;
+			F556DA04106D5C57000389F5 /* PBXTextBookmark */ = F556DA04106D5C57000389F5 /* PBXTextBookmark */;
+			F556DA06106D5C57000389F5 /* PBXTextBookmark */ = F556DA06106D5C57000389F5 /* PBXTextBookmark */;
+			F556DA08106D5C57000389F5 /* PBXTextBookmark */ = F556DA08106D5C57000389F5 /* PBXTextBookmark */;
+			F556DA0A106D5C57000389F5 /* PBXTextBookmark */ = F556DA0A106D5C57000389F5 /* PBXTextBookmark */;
+			F556DA0C106D5C57000389F5 /* PBXTextBookmark */ = F556DA0C106D5C57000389F5 /* PBXTextBookmark */;
+			F556DA0D106D5C57000389F5 /* PBXTextBookmark */ = F556DA0D106D5C57000389F5 /* PBXTextBookmark */;
+			F572D106106CFD30001DC958 /* PBXTextBookmark */ = F572D106106CFD30001DC958 /* PBXTextBookmark */;
+			F572D108106CFD30001DC958 /* PBXTextBookmark */ = F572D108106CFD30001DC958 /* PBXTextBookmark */;
+			F572D109106CFD30001DC958 /* PBXTextBookmark */ = F572D109106CFD30001DC958 /* PBXTextBookmark */;
+			F572D10B106CFD30001DC958 /* PBXTextBookmark */ = F572D10B106CFD30001DC958 /* PBXTextBookmark */;
+			F572D10E106CFD30001DC958 /* PBXTextBookmark */ = F572D10E106CFD30001DC958 /* PBXTextBookmark */;
+			F572D110106CFD30001DC958 /* PBXTextBookmark */ = F572D110106CFD30001DC958 /* PBXTextBookmark */;
+			F572D112106CFD30001DC958 /* PBXTextBookmark */ = F572D112106CFD30001DC958 /* PBXTextBookmark */;
+			F572D114106CFD30001DC958 /* PBXTextBookmark */ = F572D114106CFD30001DC958 /* PBXTextBookmark */;
+			F572D116106CFD30001DC958 /* PBXTextBookmark */ = F572D116106CFD30001DC958 /* PBXTextBookmark */;
+			F572D118106CFD30001DC958 /* PBXTextBookmark */ = F572D118106CFD30001DC958 /* PBXTextBookmark */;
+			F572D119106CFD30001DC958 /* PBXTextBookmark */ = F572D119106CFD30001DC958 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F5985C210E5DE14A00D265C8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	39663A670403023400435B6F /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 7336}}";
+			sepNavSelRange = "{15463, 0}";
+			sepNavVisRect = "{{0, 5604}, {835, 286}}";
+			sepNavWindowFrame = "{{38, 70}, {826, 782}}";
+		};
+	};
+	39A2B45A0593E296009C5934 /* QTDummyPanel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {770, 1722}}";
+			sepNavSelRange = "{1922, 13}";
+			sepNavVisRect = "{{0, 600}, {770, 214}}";
+			sepNavWindowFrame = "{{15, 98}, {1140, 835}}";
+		};
+	};
+	39A2B45B0593E297009C5934 /* QTDummyPanel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {770, 868}}";
+			sepNavSelRange = "{1853, 13}";
+			sepNavVisRect = "{{0, 537}, {770, 229}}";
+		};
+	};
+	F50132BE0FA8D9C6006E1027 /* SQ905C.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 709}}";
+			sepNavSelRange = "{232, 0}";
+			sepNavVisRect = "{{0, 0}, {787, 709}}";
+			sepNavWindowFrame = "{{300, 71}, {826, 782}}";
+		};
+	};
+	F50132BF0FA8D9C6006E1027 /* SQ905C.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 709}}";
+			sepNavSelRange = "{493, 0}";
+			sepNavVisRect = "{{0, 0}, {787, 709}}";
+			sepNavWindowFrame = "{{129, 96}, {826, 782}}";
+		};
+	};
+	F5025ADD0F795A70009D9BED /* TP68xxDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 709}}";
+			sepNavSelRange = "{271, 0}";
+			sepNavVisRect = "{{0, 0}, {787, 709}}";
+			sepNavWindowFrame = "{{74, 98}, {826, 782}}";
+		};
+	};
+	F5025ADE0F795A70009D9BED /* TP68xxDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {998, 3164}}";
+			sepNavSelRange = "{2988, 0}";
+			sepNavVisRect = "{{0, 0}, {787, 709}}";
+			sepNavWindowFrame = "{{402, 88}, {826, 782}}";
+		};
+	};
+	F5217D1A0CDB836B001F446D /* ControllerInterface.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {854, 802}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {854, 802}}";
+			sepNavWindowFrame = "{{15, 58}, {893, 875}}";
+		};
+	};
+	F5217D1B0CDB836B001F446D /* ControllerInterface.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 840}}";
+			sepNavSelRange = "{866, 80}";
+			sepNavVisRect = "{{0, 131}, {787, 709}}";
+			sepNavWindowFrame = "{{61, 49}, {826, 782}}";
+		};
+	};
+	F5217D1C0CDB836B001F446D /* Sensor.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {854, 1372}}";
+			sepNavSelRange = "{1075, 14}";
+			sepNavVisRect = "{{0, 0}, {854, 802}}";
+			sepNavWindowFrame = "{{239, 52}, {893, 875}}";
+		};
+	};
+	F5217D1D0CDB836B001F446D /* Sensor.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {710, 2450}}";
+			sepNavSelRange = "{233, 0}";
+			sepNavVisRect = "{{0, 146}, {710, 226}}";
+			sepNavWindowFrame = "{{15, 58}, {893, 875}}";
+		};
+	};
+	F5217D320CDB8433001F446D /* OmniVisionSensor.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {710, 476}}";
+			sepNavSelRange = "{270, 0}";
+			sepNavVisRect = "{{0, 146}, {710, 226}}";
+		};
+	};
+	F5217D3B0CDB8452001F446D /* OV76xx.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {854, 802}}";
+			sepNavSelRange = "{144, 45}";
+			sepNavVisRect = "{{0, 0}, {854, 802}}";
+			sepNavWindowFrame = "{{15, 58}, {893, 875}}";
+		};
+	};
+	F5217D3C0CDB8452001F446D /* OV76xx.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {710, 1862}}";
+			sepNavSelRange = "{432, 0}";
+			sepNavVisRect = "{{0, 468}, {710, 226}}";
+			sepNavWindowFrame = "{{15, 58}, {893, 875}}";
+		};
+	};
+	F5217D500CDB848D001F446D /* OV7660.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {986, 1582}}";
+			sepNavSelRange = "{1533, 0}";
+			sepNavVisRect = "{{0, 479}, {854, 766}}";
+			sepNavWindowFrame = "{{15, 99}, {893, 839}}";
+		};
+	};
+	F522580908725639002023A4 /* USB_VendorProductIDs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 5138}}";
+			sepNavSelRange = "{5195, 26}";
+			sepNavVisRect = "{{0, 1344}, {835, 378}}";
+			sepNavWindowFrame = "{{355, 83}, {904, 795}}";
+		};
+	};
+	F533EEB90271ACF80166DE1F /* MyQCExpressBDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {980, 1708}}";
+			sepNavSelRange = "{4187, 27}";
+			sepNavVisRect = "{{0, 1390}, {835, 286}}";
+		};
+	};
+	F535EC0808DB3970007943DA /* app */ = {
+		activeExec = 0;
+		executables = (
+			F5985BEC0E5DE12800D265C8 /* app */,
+		);
+	};
+	F535EC9708DB3970007943DA /* component */ = {
+		activeExec = 0;
+	};
+	F535ECFC08DB3970007943DA /* ica module */ = {
+		activeExec = 0;
+		executables = (
+			F5985BED0E5DE12800D265C8 /* ica module */,
+		);
+	};
+	F535ED6D08DB3971007943DA /* all */ = {
+		activeExec = 0;
+	};
+	F535F1DB08DF2703007943DA /* SPCA5XXDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {896, 1624}}";
+			sepNavSelRange = "{1098, 10}";
+			sepNavVisRect = "{{0, 0}, {854, 766}}";
+			sepNavWindowFrame = "{{15, 39}, {893, 839}}";
+		};
+	};
+	F535F1DC08DF2703007943DA /* SPCA5XXDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 11214}}";
+			sepNavSelRange = "{11653, 18}";
+			sepNavVisRect = "{{0, 6093}, {884, 738}}";
+			sepNavWindowFrame = "{{15, 67}, {923, 811}}";
+		};
+	};
+	F535F1EB08DF2730007943DA /* SQ905.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 2800}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 714}, {787, 709}}";
+			sepNavWindowFrame = "{{220, 94}, {826, 782}}";
+		};
+	};
+	F535F1EC08DF2730007943DA /* SQ905.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1124, 26558}}";
+			sepNavSelRange = "{6888, 28}";
+			sepNavVisRect = "{{0, 3841}, {787, 709}}";
+			sepNavWindowFrame = "{{175, 143}, {826, 782}}";
+		};
+	};
+	F54AFC8C0EA78DF9002BBD07 /* OV76xx.m:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = F5217D3C0CDB8452001F446D /* OV76xx.m */;
+		functionName = "+findSensor:";
+		hitCount = 1;
+		lineNumber = 31;
+		location = macam;
+		modificationTime = 263259368.158514;
+		state = 1;
+	};
+	F54AFC8E0EA78DFD002BBD07 /* OV76xx.m:42 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = F5217D3C0CDB8452001F446D /* OV76xx.m */;
+		functionName = "+findSensor:";
+		hitCount = 1;
+		lineNumber = 42;
+		location = macam;
+		modificationTime = 263259368.155706;
+		state = 1;
+	};
+	F54AFC970EA78F3D002BBD07 /* SonixDriver.m:1566 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = F5E63B760A372AC300AAA2DA /* SonixDriver.m */;
+		functionName = "-getSensorRegister5:into:";
+		hitCount = 1;
+		lineNumber = 1566;
+		location = macam;
+		modificationTime = 263259368.157587;
+		state = 1;
+	};
+	F553F47D0A22BB1A00591163 /* OV519Driver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {854, 4326}}";
+			sepNavSelRange = "{1265, 49}";
+			sepNavVisRect = "{{0, 100}, {854, 766}}";
+			sepNavWindowFrame = "{{9, -51}, {893, 839}}";
+		};
+	};
+	F553F47E0A22BB1A00591163 /* OV519Driver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1178, 13496}}";
+			sepNavSelRange = "{6775, 83}";
+			sepNavVisRect = "{{0, 1416}, {700, 754}}";
+			sepNavWindowFrame = "{{81, 51}, {739, 827}}";
+		};
+	};
+	F556D855106D4F90000389F5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F55DD844021311680166DE0F /* QTPanel.m */;
+	};
+	F556D9FB106D5C57000389F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F55DD844021311680166DE0F /* QTPanel.m */;
+		name = "QTPanel.m: 601";
+		rLen = 0;
+		rLoc = 22479;
+		rType = 0;
+		vrLen = 1884;
+		vrLoc = 18814;
+	};
+	F556D9FC106D5C57000389F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F556D9FD106D5C57000389F5 /* pac7311 - to trash.c */;
+		name = V4L2_PIX_FMT_PJPG;
+		rLen = 17;
+		rLoc = 4403;
+		rType = 0;
+		vrLen = 1018;
+		vrLoc = 15729;
+	};
+	F556D9FD106D5C57000389F5 /* pac7311 - to trash.c */ = {
+		isa = PBXFileReference;
+		name = "pac7311 - to trash.c";
+		path = "/Users/harald/Desktop/pac7311 - to trash.c";
+		sourceTree = "<absolute>";
+	};
+	F556D9FE106D5C57000389F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F5F2D8750B8AC92F001F850A /* gspcadecoder.c */;
+		name = pac7311_decode;
+		rLen = 14;
+		rLoc = 27910;
+		rType = 0;
+		vrLen = 1700;
+		vrLoc = 27155;
+	};
+	F556D9FF106D5C57000389F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F556DA00106D5C57000389F5 /* tinyjpeg.c */;
+		name = PIXART;
+		rLen = 6;
+		rLoc = 62116;
+		rType = 0;
+		vrLen = 1900;
+		vrLoc = 57767;
+	};
+	F556DA00106D5C57000389F5 /* tinyjpeg.c */ = {
+		isa = PBXFileReference;
+		name = tinyjpeg.c;
+		path = "/Users/harald/Desktop/gspca-ps3eyeMT/v4l2-apps/libv4l/libv4lconvert/tinyjpeg.c";
+		sourceTree = "<absolute>";
+	};
+	F556DA01106D5C57000389F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F5D17E220C1A0833007B5026 /* pac7311.h */;
+		name = "//load registers to sensor (Bit 0, auto clear)";
+		rLen = 46;
+		rLoc = 13296;
+		rType = 0;
+		vrLen = 1661;
+		vrLoc = 18532;
+	};
+	F556DA02106D5C57000389F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F556DA03106D5C57000389F5 /* tp6800 - to trash.c */;
+		name = sd_pkt_scan;
+		rLen = 11;
+		rLoc = 27562;
+		rType = 0;
+		vrLen = 2028;
+		vrLoc = 26715;
+	};
+	F556DA03106D5C57000389F5 /* tp6800 - to trash.c */ = {
+		isa = PBXFileReference;
+		name = "tp6800 - to trash.c";
+		path = "/Users/harald/Desktop/TOPRO/tp6800 - to trash.c";
+		sourceTree = "<absolute>";
+	};
+	F556DA04106D5C57000389F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F556DA05106D5C57000389F5 /* sq905.c */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1306;
+		vrLoc = 9210;
+	};
+	F556DA05106D5C57000389F5 /* sq905.c */ = {
+		isa = PBXFileReference;
+		name = sq905.c;
+		path = "/Users/harald/Desktop/gspca-ps3eyeMT/linux/drivers/media/video/gspca/sq905.c";
+		sourceTree = "<absolute>";
+	};
+	F556DA06106D5C57000389F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F556DA07106D5C57000389F5 /* sq905c.c */;
+		name = 0x913d;
+		rLen = 6;
+		rLoc = 8539;
+		rType = 0;
+		vrLen = 1875;
+		vrLoc = 2291;
+	};
+	F556DA07106D5C57000389F5 /* sq905c.c */ = {
+		isa = PBXFileReference;
+		name = sq905c.c;
+		path = "/Users/harald/Desktop/gspca-ps3eyeMT/linux/drivers/media/video/gspca/sq905c.c";
+		sourceTree = "<absolute>";
+	};
+	F556DA08106D5C57000389F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F556DA09106D5C57000389F5 /* ov534 to trash.c */;
+		name = "(null): 165";
+		rLen = 0;
+		rLoc = 3783;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 5935;
+	};
+	F556DA09106D5C57000389F5 /* ov534 to trash.c */ = {
+		isa = PBXFileReference;
+		name = "ov534 to trash.c";
+		path = "/Users/harald/Desktop/gspca-ps3eyeMT/linux/drivers/media/video/gspca/ov534 to trash.c";
+		sourceTree = "<absolute>";
+	};
+	F556DA0A106D5C57000389F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F556DA0B106D5C57000389F5 /* OV534Driver kaswy.m */;
+		name = "(null): 484";
+		rLen = 79;
+		rLoc = 19081;
+		rType = 0;
+		vrLen = 2163;
+		vrLoc = 28150;
+	};
+	F556DA0B106D5C57000389F5 /* OV534Driver kaswy.m */ = {
+		isa = PBXFileReference;
+		name = "OV534Driver kaswy.m";
+		path = "/Users/harald/sandbox/webcam-osx/macam-dev-track-09/cameras/OV534Driver kaswy.m";
+		sourceTree = "<absolute>";
+	};
+	F556DA0C106D5C57000389F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F5E63B750A372AC300AAA2DA /* SonixDriver.h */;
+		name = "void * jpegHeader;";
+		rLen = 23;
+		rLoc = 4190;
+		rType = 0;
+		vrLen = 1164;
+		vrLoc = 3519;
+	};
+	F556DA0D106D5C57000389F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F5E63B760A372AC300AAA2DA /* SonixDriver.m */;
+		name = createJpegHeader;
+		rLen = 16;
+		rLoc = 76876;
+		rType = 0;
+		vrLen = 1921;
+		vrLoc = 66487;
+	};
+	F55B7D5A0B97627F00022D24 /* JL2005ADriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 709}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {787, 709}}";
+			sepNavWindowFrame = "{{107, 67}, {826, 782}}";
+		};
+	};
+	F55B7D5B0B97628000022D24 /* JL2005ADriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 2828}}";
+			sepNavSelRange = "{3963, 53}";
+			sepNavVisRect = "{{0, 2119}, {787, 709}}";
+			sepNavWindowFrame = "{{84, 88}, {826, 782}}";
+		};
+	};
+	F55DD8210213113F0166DE0F /* MyCameraCentral.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 2072}}";
+			sepNavSelRange = "{4200, 21}";
+			sepNavVisRect = "{{0, 700}, {787, 724}}";
+			sepNavWindowFrame = "{{104, 101}, {826, 782}}";
+		};
+	};
+	F55DD8230213113F0166DE0F /* MyCameraDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 5824}}";
+			sepNavSelRange = "{3026, 16}";
+			sepNavVisRect = "{{0, 919}, {787, 724}}";
+			sepNavWindowFrame = "{{38, 70}, {826, 782}}";
+		};
+	};
+	F55DD8240213113F0166DE0F /* MyCameraDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1184, 27090}}";
+			sepNavSelRange = "{9692, 182}";
+			sepNavVisRect = "{{0, 6876}, {854, 766}}";
+			sepNavWindowFrame = "{{15, 99}, {893, 839}}";
+		};
+	};
+	F55DD8270213113F0166DE0F /* MyDummyCameraDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 762}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1101, 762}}";
+			sepNavWindowFrame = "{{61, 56}, {1140, 835}}";
+		};
+	};
+	F55DD8280213113F0166DE0F /* MyDummyCameraDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2762, 1386}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1101, 762}}";
+			sepNavWindowFrame = "{{15, 98}, {1140, 835}}";
+		};
+	};
+	F55DD83D021311680166DE0F /* MyController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 2324}}";
+			sepNavSelRange = "{1790, 8}";
+			sepNavVisRect = "{{0, 0}, {787, 709}}";
+			sepNavWindowFrame = "{{15, 91}, {826, 782}}";
+		};
+	};
+	F55DD83E021311680166DE0F /* MyController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {890, 24360}}";
+			sepNavSelRange = "{8701, 0}";
+			sepNavVisRect = "{{0, 3223}, {787, 709}}";
+			sepNavWindowFrame = "{{112, 86}, {826, 782}}";
+		};
+	};
+	F55DD842021311680166DE0F /* QTComponent.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {812, 4816}}";
+			sepNavSelRange = "{3944, 0}";
+			sepNavVisRect = "{{0, 2196}, {565, 788}}";
+			sepNavWindowFrame = "{{464, 67}, {604, 861}}";
+		};
+	};
+	F55DD843021311680166DE0F /* QTPanel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 1162}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 3}, {1101, 762}}";
+			sepNavWindowFrame = "{{45, 90}, {1140, 835}}";
+		};
+	};
+	F55DD844021311680166DE0F /* QTPanel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {794, 8414}}";
+			sepNavSelRange = "{22479, 0}";
+			sepNavVisRect = "{{0, 6791}, {754, 761}}";
+			sepNavWindowFrame = "{{93, 66}, {793, 834}}";
+		};
+	};
+	F55DD846021311680166DE0F /* QTVideoDigitizer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1406, 14504}}";
+			sepNavSelRange = "{15227, 27}";
+			sepNavVisRect = "{{0, 13742}, {1101, 762}}";
+			sepNavWindowFrame = "{{16, 101}, {1140, 835}}";
+		};
+	};
+	F572D106106CFD30001DC958 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F572D107106CFD30001DC958 /* pac7311 - to trash.c */;
+		name = V4L2_PIX_FMT_PJPG;
+		rLen = 17;
+		rLoc = 4403;
+		rType = 0;
+		vrLen = 1018;
+		vrLoc = 15729;
+	};
+	F572D107106CFD30001DC958 /* pac7311 - to trash.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = "pac7311 - to trash.c";
+		path = "/Users/harald/Desktop/pac7311 - to trash.c";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 9618}}";
+			sepNavSelRange = "{4403, 17}";
+			sepNavVisRect = "{{0, 8890}, {787, 709}}";
+			sepNavWindowFrame = "{{22, 72}, {826, 782}}";
+		};
+	};
+	F572D108106CFD30001DC958 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F5F2D8750B8AC92F001F850A /* gspcadecoder.c */;
+		name = pac7311_decode;
+		rLen = 14;
+		rLoc = 27910;
+		rType = 0;
+		vrLen = 1700;
+		vrLoc = 27155;
+	};
+	F572D109106CFD30001DC958 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F572D10A106CFD30001DC958 /* tinyjpeg.c */;
+		name = PIXART;
+		rLen = 6;
+		rLoc = 62116;
+		rType = 0;
+		vrLen = 1900;
+		vrLoc = 57767;
+	};
+	F572D10A106CFD30001DC958 /* tinyjpeg.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = tinyjpeg.c;
+		path = "/Users/harald/Desktop/gspca-ps3eyeMT/v4l2-apps/libv4l/libv4lconvert/tinyjpeg.c";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {860, 34496}}";
+			sepNavSelRange = "{62116, 6}";
+			sepNavVisRect = "{{0, 32102}, {787, 709}}";
+			sepNavWindowFrame = "{{28, 114}, {826, 782}}";
+		};
+	};
+	F572D10B106CFD30001DC958 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F5D17E220C1A0833007B5026 /* pac7311.h */;
+		name = "//load registers to sensor (Bit 0, auto clear)";
+		rLen = 46;
+		rLoc = 13296;
+		rType = 0;
+		vrLen = 1661;
+		vrLoc = 18532;
+	};
+	F572D10E106CFD30001DC958 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F572D10F106CFD30001DC958 /* tp6800 - to trash.c */;
+		name = sd_pkt_scan;
+		rLen = 11;
+		rLoc = 27562;
+		rType = 0;
+		vrLen = 2028;
+		vrLoc = 26715;
+	};
+	F572D10F106CFD30001DC958 /* tp6800 - to trash.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = "tp6800 - to trash.c";
+		path = "/Users/harald/Desktop/TOPRO/tp6800 - to trash.c";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 13412}}";
+			sepNavSelRange = "{27562, 11}";
+			sepNavVisRect = "{{0, 9772}, {787, 709}}";
+			sepNavWindowFrame = "{{10, 143}, {826, 782}}";
+		};
+	};
+	F572D110106CFD30001DC958 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F572D111106CFD30001DC958 /* sq905.c */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1306;
+		vrLoc = 9210;
+	};
+	F572D111106CFD30001DC958 /* sq905.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = sq905.c;
+		path = "/Users/harald/Desktop/gspca-ps3eyeMT/linux/drivers/media/video/gspca/sq905.c";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 6482}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 4060}, {787, 709}}";
+			sepNavWindowFrame = "{{11, 148}, {826, 782}}";
+		};
+	};
+	F572D112106CFD30001DC958 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F572D113106CFD30001DC958 /* sq905c.c */;
+		name = 0x913d;
+		rLen = 6;
+		rLoc = 8539;
+		rType = 0;
+		vrLen = 1875;
+		vrLoc = 2291;
+	};
+	F572D113106CFD30001DC958 /* sq905c.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = sq905c.c;
+		path = "/Users/harald/Desktop/gspca-ps3eyeMT/linux/drivers/media/video/gspca/sq905c.c";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 4606}}";
+			sepNavSelRange = "{8539, 6}";
+			sepNavVisRect = "{{0, 994}, {787, 709}}";
+			sepNavWindowFrame = "{{18, 70}, {826, 782}}";
+		};
+	};
+	F572D114106CFD30001DC958 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F572D115106CFD30001DC958 /* ov534 to trash.c */;
+		name = "(null): 165";
+		rLen = 0;
+		rLoc = 3783;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 5935;
+	};
+	F572D115106CFD30001DC958 /* ov534 to trash.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = "ov534 to trash.c";
+		path = "/Users/harald/Desktop/gspca-ps3eyeMT/linux/drivers/media/video/gspca/ov534 to trash.c";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 6874}}";
+			sepNavSelRange = "{3783, 0}";
+			sepNavVisRect = "{{0, 3528}, {787, 709}}";
+			sepNavWindowFrame = "{{7, 132}, {826, 782}}";
+		};
+	};
+	F572D116106CFD30001DC958 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F572D117106CFD30001DC958 /* OV534Driver kaswy.m */;
+		name = "(null): 484";
+		rLen = 79;
+		rLoc = 19081;
+		rType = 0;
+		vrLen = 2163;
+		vrLoc = 28150;
+	};
+	F572D117106CFD30001DC958 /* OV534Driver kaswy.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = "OV534Driver kaswy.m";
+		path = "/Users/harald/sandbox/webcam-osx/macam-dev-track-09/cameras/OV534Driver kaswy.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 15036}}";
+			sepNavSelRange = "{19081, 79}";
+			sepNavVisRect = "{{0, 12166}, {787, 709}}";
+			sepNavWindowFrame = "{{38, 83}, {826, 782}}";
+		};
+	};
+	F572D118106CFD30001DC958 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F5E63B750A372AC300AAA2DA /* SonixDriver.h */;
+		name = "void * jpegHeader;";
+		rLen = 23;
+		rLoc = 4190;
+		rType = 0;
+		vrLen = 1164;
+		vrLoc = 3519;
+	};
+	F572D119106CFD30001DC958 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F5E63B760A372AC300AAA2DA /* SonixDriver.m */;
+		name = createJpegHeader;
+		rLen = 16;
+		rLoc = 76876;
+		rType = 0;
+		vrLen = 1921;
+		vrLoc = 66487;
+	};
+	F57A02EA0D8E0BEF000EFF61 /* AGC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 3976}}";
+			sepNavSelRange = "{5426, 0}";
+			sepNavVisRect = "{{0, 3267}, {787, 709}}";
+			sepNavWindowFrame = "{{38, 70}, {826, 782}}";
+		};
+	};
+	F583DD730FB104B70063F263 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+			F54AFC8C0EA78DF9002BBD07 /* OV76xx.m:31 */,
+			F54AFC8E0EA78DFD002BBD07 /* OV76xx.m:42 */,
+			F54AFC970EA78F3D002BBD07 /* SonixDriver.m:1566 */,
+		);
+	};
+	F592C8E90974520E00183A7D /* sonix.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1040, 13524}}";
+			sepNavSelRange = "{28593, 14}";
+			sepNavVisRect = "{{0, 11566}, {741, 710}}";
+			sepNavWindowFrame = "{{134, 129}, {780, 783}}";
+		};
+	};
+	F5985BEC0E5DE12800D265C8 /* app */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = app;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			"0-UInt8--[SonixSN9CDriver getSensorRegister5:into:]" = 1;
+			"1-UInt8--[SonixSN9CDriver getSensorRegister5:into:]" = 1;
+			"2-UInt8--[SonixSN9CDriver getSensorRegister5:into:]" = 1;
+			"3-UInt8--[SonixSN9CDriver getSensorRegister5:into:]" = 1;
+			"4-UInt8--[SonixSN9CDriver getSensorRegister5:into:]" = 1;
+			"5-UInt8--[SonixSN9CDriver getSensorRegister5:into:]" = 1;
+			"6-UInt8--[SonixSN9CDriver getSensorRegister5:into:]" = 1;
+			"7-UInt8--[SonixSN9CDriver getSensorRegister5:into:]" = 1;
+			"buffer-UInt8 [8]--[SonixSN9CDriver getSensorRegister5:into:]" = 1;
+			"regF1-UInt8--[SonixSN9C105Driver startupCamera]" = 1;
+		};
+	};
+	F5985BED0E5DE12800D265C8 /* ica module */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "ica module";
+		sourceDirectories = (
+		);
+	};
+	F5985C210E5DE14A00D265C8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
+		scmConfiguration = {
+			CVSToolPath = /usr/bin/cvs;
+			CVSUseSSH = NO;
+		};
+		scmType = scm.cvs;
+	};
+	F5985C220E5DE14A00D265C8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F59B085509D450190036AB97 /* PAC207Driver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 882}}";
+			sepNavSelRange = "{1078, 14}";
+			sepNavVisRect = "{{0, 0}, {884, 738}}";
+			sepNavWindowFrame = "{{119, 127}, {923, 811}}";
+		};
+	};
+	F59B085609D450190036AB97 /* PAC207Driver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 15078}}";
+			sepNavSelRange = "{24760, 14}";
+			sepNavVisRect = "{{0, 10615}, {741, 710}}";
+			sepNavWindowFrame = "{{242, 155}, {780, 783}}";
+		};
+	};
+	F59B097409D5069F0036AB97 /* ZC030xDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {998, 7952}}";
+			sepNavSelRange = "{15804, 139}";
+			sepNavVisRect = "{{0, 5029}, {770, 316}}";
+			sepNavWindowFrame = "{{11, 155}, {780, 783}}";
+		};
+	};
+	F59B099C09D50EA00036AB97 /* CX11646Driver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {998, 2688}}";
+			sepNavSelRange = "{3054, 0}";
+			sepNavVisRect = "{{49, 900}, {835, 286}}";
+		};
+	};
+	F5AEA372097A154300D45891 /* SQ930C.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {865, 722}}";
+			sepNavSelRange = "{970, 0}";
+			sepNavVisRect = "{{0, 0}, {865, 722}}";
+			sepNavWindowFrame = "{{217, 115}, {904, 795}}";
+		};
+	};
+	F5AEA373097A154400D45891 /* SQ930C.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {865, 1652}}";
+			sepNavSelRange = "{1458, 34}";
+			sepNavVisRect = "{{0, 252}, {865, 722}}";
+			sepNavWindowFrame = "{{280, 72}, {904, 795}}";
+		};
+	};
+	F5AEA390097A1D0600D45891 /* PAC7311Driver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 840}}";
+			sepNavSelRange = "{1551, 0}";
+			sepNavVisRect = "{{0, 89}, {787, 709}}";
+			sepNavWindowFrame = "{{244, 96}, {826, 782}}";
+		};
+	};
+	F5AEA391097A1D0700D45891 /* PAC7311Driver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 28560}}";
+			sepNavSelRange = "{51324, 0}";
+			sepNavVisRect = "{{0, 22299}, {848, 776}}";
+			sepNavWindowFrame = "{{165, 69}, {887, 849}}";
+		};
+	};
+	F5AEA6EF097D805400D45891 /* sn9cxxx.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 16128}}";
+			sepNavSelRange = "{3570, 14}";
+			sepNavVisRect = "{{0, 702}, {741, 710}}";
+			sepNavWindowFrame = "{{30, 67}, {780, 783}}";
+		};
+	};
+	F5B2EF000A1AFD9E001423D7 /* spca5xx.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 79758}}";
+			sepNavSelRange = "{159496, 6}";
+			sepNavVisRect = "{{0, 72832}, {835, 286}}";
+		};
+	};
+	F5B9568C0250D31A0166DE1F /* MyCameraCentral.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1616, 18788}}";
+			sepNavSelRange = "{47016, 0}";
+			sepNavVisRect = "{{0, 485}, {854, 766}}";
+			sepNavWindowFrame = "{{15, 99}, {893, 839}}";
+		};
+	};
+	F5BA4AA20D4E416900F15480 /* DivioDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1250, 14476}}";
+			sepNavSelRange = "{22707, 17}";
+			sepNavVisRect = "{{0, 11531}, {787, 709}}";
+			sepNavWindowFrame = "{{38, 130}, {826, 782}}";
+		};
+	};
+	F5CFE5FA09D069DF00C6DB41 /* ExampleDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {854, 868}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {854, 802}}";
+			sepNavWindowFrame = "{{15, 58}, {893, 875}}";
+		};
+	};
+	F5CFE5FB09D069DF00C6DB41 /* ExampleDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {854, 3206}}";
+			sepNavSelRange = "{3127, 44}";
+			sepNavVisRect = "{{0, 2440}, {854, 766}}";
+			sepNavWindowFrame = "{{15, 99}, {893, 839}}";
+		};
+	};
+	F5D17E220C1A0833007B5026 /* pac7311.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1142, 7224}}";
+			sepNavSelRange = "{13296, 46}";
+			sepNavVisRect = "{{0, 5796}, {658, 715}}";
+			sepNavWindowFrame = "{{53, 93}, {697, 788}}";
+		};
+	};
+	F5E63B750A372AC300AAA2DA /* SonixDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 3738}}";
+			sepNavSelRange = "{4190, 23}";
+			sepNavVisRect = "{{0, 2650}, {884, 738}}";
+			sepNavWindowFrame = "{{141, 102}, {923, 811}}";
+		};
+	};
+	F5E63B760A372AC300AAA2DA /* SonixDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1142, 35868}}";
+			sepNavSelRange = "{76876, 16}";
+			sepNavVisRect = "{{0, 31644}, {854, 766}}";
+			sepNavWindowFrame = "{{46, 99}, {893, 839}}";
+		};
+	};
+	F5E9DF860CEBAA2300FA8133 /* SPCA504Driver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {926, 5642}}";
+			sepNavSelRange = "{11057, 37}";
+			sepNavVisRect = "{{0, 0}, {865, 722}}";
+			sepNavWindowFrame = "{{137, 66}, {904, 795}}";
+		};
+	};
+	F5E9DFA00CEBAADE00FA8133 /* SPCA506Driver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 1162}}";
+			sepNavSelRange = "{482, 6}";
+			sepNavVisRect = "{{0, 0}, {835, 471}}";
+		};
+	};
+	F5E9DFAC0CEBAB1300FA8133 /* SPCA533Driver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 4102}}";
+			sepNavSelRange = "{7861, 14}";
+			sepNavVisRect = "{{0, 2913}, {740, 180}}";
+		};
+	};
+	F5ED13DB0A48752A00770B6A /* LookUpTable.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1238, 1372}}";
+			sepNavSelRange = "{2788, 0}";
+			sepNavVisRect = "{{0, 635}, {588, 709}}";
+			sepNavWindowFrame = "{{251, 111}, {627, 782}}";
+		};
+	};
+	F5ED13DC0A48752A00770B6A /* LookUpTable.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {700, 5852}}";
+			sepNavSelRange = "{9422, 0}";
+			sepNavVisRect = "{{0, 4918}, {700, 769}}";
+			sepNavWindowFrame = "{{12, 100}, {739, 827}}";
+		};
+	};
+	F5EDFAD5036876210166D062 /* MyOV511Driver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1280, 21462}}";
+			sepNavSelRange = "{48001, 27}";
+			sepNavVisRect = "{{0, 16860}, {835, 286}}";
+			sepNavWindowFrame = "{{15, 150}, {780, 783}}";
+		};
+	};
+	F5F17B2F09BCD2FF000AEB63 /* zc3xx.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {890, 15918}}";
+			sepNavSelRange = "{22735, 15}";
+			sepNavVisRect = "{{0, 9226}, {741, 710}}";
+			sepNavWindowFrame = "{{11, 147}, {780, 783}}";
+		};
+	};
+	F5F17B6D09BCD671000AEB63 /* GenericDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1178, 4578}}";
+			sepNavSelRange = "{2765, 0}";
+			sepNavVisRect = "{{0, 3100}, {741, 710}}";
+			sepNavWindowFrame = "{{29, 95}, {780, 783}}";
+		};
+	};
+	F5F17B6E09BCD671000AEB63 /* GenericDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1694, 30170}}";
+			sepNavSelRange = "{65642, 902}";
+			sepNavVisRect = "{{0, 27780}, {1101, 762}}";
+			sepNavWindowFrame = "{{38, 46}, {1140, 835}}";
+		};
+	};
+	F5F17BAF09BD0B10000AEB63 /* QCMessengerDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1286, 11900}}";
+			sepNavSelRange = "{1746, 26}";
+			sepNavVisRect = "{{0, 630}, {835, 378}}";
+			sepNavWindowFrame = "{{185, 76}, {627, 782}}";
+		};
+	};
+	F5F25CF00D32BF740009C1BE /* ov7620.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {741, 8820}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {741, 710}}";
+			sepNavWindowFrame = "{{317, 113}, {780, 783}}";
+		};
+	};
+	F5F2D8730B8AC92F001F850A /* gspca_core.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 61726}}";
+			sepNavSelRange = "{121257, 6}";
+			sepNavVisRect = "{{0, 56648}, {835, 286}}";
+		};
+	};
+	F5F2D8740B8AC92F001F850A /* gspca.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 7546}}";
+			sepNavSelRange = "{3579, 6}";
+			sepNavVisRect = "{{0, 1488}, {835, 286}}";
+			sepNavWindowFrame = "{{2, 30}, {1140, 835}}";
+		};
+	};
+	F5F2D8750B8AC92F001F850A /* gspcadecoder.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {951, 62622}}";
+			sepNavSelRange = "{27910, 14}";
+			sepNavVisRect = "{{0, 10108}, {951, 714}}";
+			sepNavWindowFrame = "{{61, 105}, {990, 787}}";
+		};
+	};
+	F5F2DA6E0B8F8FDD001F850A /* VC032xDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 2968}}";
+			sepNavSelRange = "{3445, 0}";
+			sepNavVisRect = "{{0, 926}, {787, 709}}";
+			sepNavWindowFrame = "{{379, 62}, {826, 782}}";
+		};
+	};
+	F5F4373C02D278D6018D4F8C /* MyVicamDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 16828}}";
+			sepNavSelRange = "{41031, 27}";
+			sepNavVisRect = "{{0, 16503}, {835, 301}}";
+		};
+	};
+	F5F5FC790A66B26000AC9079 /* SPCA525Driver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 5824}}";
+			sepNavSelRange = "{3543, 15}";
+			sepNavVisRect = "{{0, 0}, {835, 286}}";
+			sepNavWindowFrame = "{{61, 96}, {904, 795}}";
+		};
+	};
+	F5F6FF2E0D370AED00E994AC /* OV534Driver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {700, 784}}";
+			sepNavSelRange = "{116, 0}";
+			sepNavVisRect = "{{0, 0}, {700, 754}}";
+			sepNavWindowFrame = "{{238, 79}, {739, 827}}";
+		};
+	};
+	F5F6FF2F0D370AED00E994AC /* OV534Driver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 16296}}";
+			sepNavSelRange = "{25709, 0}";
+			sepNavVisRect = "{{0, 15532}, {566, 764}}";
+			sepNavWindowFrame = "{{654, 93}, {605, 837}}";
+		};
+	};
+	F5F79A810212038E01E152CA /* MyCPIACameraDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {700, 2408}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 1624}, {700, 769}}";
+			sepNavWindowFrame = "{{12, 100}, {739, 827}}";
+		};
+	};
+	F5F79A820212038E01E152CA /* MyCPIACameraDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {700, 12278}}";
+			sepNavSelRange = "{29668, 0}";
+			sepNavVisRect = "{{0, 9996}, {700, 769}}";
+			sepNavWindowFrame = "{{105, 100}, {739, 827}}";
+		};
+	};
+	F5F79A860212038E01E152CA /* MyPhilipsCameraDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1064, 7784}}";
+			sepNavSelRange = "{23035, 0}";
+			sepNavVisRect = "{{0, 2664}, {741, 710}}";
+			sepNavWindowFrame = "{{281, 124}, {780, 783}}";
+		};
+	};
+	F5F79A920212038E01E152CA /* GlobalDefs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 2128}}";
+			sepNavSelRange = "{2219, 20}";
+			sepNavVisRect = "{{0, 445}, {1101, 777}}";
+			sepNavWindowFrame = "{{106, 89}, {1140, 835}}";
+		};
+	};
+	F5F79A950212038E01E152CA /* MiscTools.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 3150}}";
+			sepNavSelRange = "{5709, 0}";
+			sepNavVisRect = "{{0, 1906}, {688, 738}}";
+			sepNavWindowFrame = "{{15, 62}, {727, 811}}";
+		};
+	};
+	F5F79A960212038E01E152CA /* MiscTools.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 840}}";
+			sepNavSelRange = "{1831, 12}";
+			sepNavVisRect = "{{0, 89}, {787, 709}}";
+			sepNavWindowFrame = "{{578, 72}, {826, 782}}";
+		};
+	};
+	F5F79A970212038E01E152CA /* Resolvers.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 3682}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {787, 709}}";
+			sepNavWindowFrame = "{{15, 151}, {826, 782}}";
+		};
+	};
+	F5FC0F1E02834E82015925D2 /* MyQCWebDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 2226}}";
+			sepNavSelRange = "{3976, 27}";
+			sepNavVisRect = "{{0, 1362}, {835, 286}}";
+		};
+	};
+}

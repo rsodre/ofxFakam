@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Camera video settings</key>
+	<string>Réglages de la caméra</string>
+	<key>Change camera</key>
+	<string>Changer de caméra</string>
+	<key>Download</key>
+	<string>Télécharger</string>
+	<key>Download Media?</key>
+	<string>Ouvrir le flux vidéo ?</string>
+	<key>Download media</key>
+	<string>Ouverture du flux vidéo</string>
+	<key>No</key>
+	<string>Non</string>
+	<key>Pause</key>
+	<string>Pause</string>
+	<key>Pause camera video</key>
+	<string>Mettre la caméra en pause</string>
+	<key>Play</key>
+	<string>Lire</string>
+	<key>Play camera video</key>
+	<string>Lecture du flux vidéo</string>
+	<key>Record live video to a QuickTime movie</key>
+	<string>Enregistrer le flux vidéo au fichier QuickTime</string>
+	<key>Record movie</key>
+	<string>Enregistrer le vidéo</string>
+	<key>Save current image</key>
+	<string>Enregistrer l'image en cours</string>
+	<key>Save image</key>
+	<string>Enregistrer l'image</string>
+	<key>Save like this</key>
+	<string>Enregistrer tel quel</string>
+	<key>Settings</key>
+	<string>Paramètres</string>
+	<key>Status: A problem occurred - please check files</key>
+	<string>État: Un problème est survenu, merci de vérifier les fichiers</string>
+	<key>Status: CPU too busy</key>
+	<string>État: La charge processeur est trop élevée</string>
+	<key>Status: Camera not found (this shouldn't happen)</key>
+	<string>État: Caméra introuvable (ceci ne devrait pas arriver)</string>
+	<key>Status: Camera switch failed</key>
+	<string>État: Le changement de caméra a échoué</string>
+	<key>Status: Camera unplugged</key>
+	<string>État: Caméra débranchée</string>
+	<key>Status: Camera used by another app</key>
+	<string>État: La caméra est utilisée par une autre application</string>
+	<key>Status: Conntected to </key>
+	<string>État: Connecté à </string>
+	<key>Status: Downloading number %i</key>
+	<string>État: téléchargement du numéro %i</string>
+	<key>Status: Internal error (this shouldn't happen)</key>
+	<string>État: Erreur interne (ceci ne devrait pas se produire)</string>
+	<key>Status: Media downloaded from camera</key>
+	<string>État: flux enregistré depuis la caméra</string>
+	<key>Status: Media not downloaded</key>
+	<string>État: Aucun flux enregistré</string>
+	<key>Status: No Camera</key>
+	<string>État: Pas de caméra</string>
+	<key>Status: Not enough USB bus power</key>
+	<string>État: Pas assez de puissance sur le bus USB</string>
+	<key>Status: Not enough bandwidth</key>
+	<string>État: Bande passante trop faible</string>
+	<key>Status: Out of memory</key>
+	<string>État: Pas assez de mémoire</string>
+	<key>Status: Paused</key>
+	<string>État: En pause</string>
+	<key>Status: Pausing</key>
+	<string>État: mise en pause...</string>
+	<key>Status: Playing</key>
+	<string>État: Lecture</string>
+	<key>Status: USB communication problem</key>
+	<string>État: problème de communication sur USB</string>
+	<key>Status: Unknown error (this shouldn't happen)</key>
+	<string>État: Erreur inconnue (ceci ne devrait pas se produire)</string>
+	<key>Status: Unsupported</key>
+	<string>État: Non supporté</string>
+	<key>Switch to next camera</key>
+	<string>Bascule vers la caméra suivante</string>
+	<key>The camera you just plugged in contains %i stored images. Do you want to download them to your computer?</key>
+	<string>La caméra que vous venez de brancher contient %i images. Souhaitez-vous les enregistrer sur votre ordinateur ?</string>
+	<key>The camera you just plugged in contains one stored image. Do you want to download them to your computer?</key>
+	<string>La caméra que vous venez de brancher contient une image. Souhaitez-vous l'enregistrer sur votre ordinateur ?</string>
+	<key>Yes</key>
+	<string>Oui</string>
+</dict>
+</plist>

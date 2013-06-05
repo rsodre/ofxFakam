@@ -3,13 +3,15 @@ ofxFakam
 ==================
 
 ofxFakam is an Open Frameworks addon that streams screen data to a fake camera driver.
-It relys on a QuickTime component that actually stream the screens to any program enabled to read from a camera source.
+It relies on a QuickTime component that actually stream the screens to any program enabled to read from a camera source.
 
 Works with OpenFrameworks, a cross platform open source toolkit for creative coding in C++.
 [http://www.openframeworks.cc/](http://www.openframeworks.cc/)
 
 Also woks with Cinder (sources pending)
 [http://www.cinderlib.org/](http://www.cinderlib.org/)
+
+The component is a stripped-down version of macam, and the component-src folder is basically a copy of the macam repository at the time I adapted it, and has not been updated until then.
 
 Fakam works only on Mac OSX.
 
@@ -115,8 +117,6 @@ There must be a way to eliminate this conflict, but I did not discover it yet.
 You should see a lot of warnings on the Console, please ignore them.
 
 Being "always on", I don't really know if Fakam is eternally consuming CPU or looping endlessly trying to connect to a stream. Maybe the warnings come from there.
-
-If you want to help, I can share the component sources. Just ask for it.
 
 
 

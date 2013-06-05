@@ -1,0 +1,141 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                "" = id; 
+                magnify100 = id; 
+                magnify200 = id; 
+                magnify50 = id; 
+                magnifyLarger = id; 
+                magnifySmaller = id; 
+                rotateCCW = id; 
+                rotateCW = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = MyCameraCentral; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = MyCameraDriver; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                blackwhiteCheckboxChanged = id; 
+                brightnessChanged = id; 
+                cameraDisableChanged = id; 
+                compressionChanged = id; 
+                contrastChanged = id; 
+                disclaimerOK = id; 
+                disclaimerQuit = id; 
+                doDeleteAll = id; 
+                doDeleteLast = id; 
+                doDeleteOne = id; 
+                doDeleteSavedPrefs = id; 
+                doDownloadMedia = id; 
+                doGrab = id; 
+                doNextCam = id; 
+                doQuit = id; 
+                doSaveImage = id; 
+                doSavePrefs = id; 
+                doTakeStillImage = id; 
+                dumpRegisters = id; 
+                flickerChanged = id; 
+                formatChanged = id; 
+                gainChanged = id; 
+                gammaChanged = id; 
+                hueChanged = id; 
+                ledCheckboxChanged = id; 
+                manGainChanged = id; 
+                orientationChanged = id; 
+                readRegister = id; 
+                reduceBandwidthChanged = id; 
+                saturationChanged = id; 
+                sharpnessChanged = id; 
+                shutterChanged = id; 
+                toggleDebugDrawer = id; 
+                toggleSettingsDrawer = id; 
+                whiteBalanceChanged = id; 
+                writeRegister = id; 
+            }; 
+            CLASS = MyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                blackwhiteCheckbox = id; 
+                brightnessSlider = NSSlider; 
+                cameraDisableCheckbox = id; 
+                central = MyCameraCentral; 
+                compressionSlider = NSSlider; 
+                contrastSlider = NSSlider; 
+                debugDrawer = NSDrawer; 
+                debugMessage = NSTextField; 
+                disclaimerWindow = NSWindow; 
+                flickerPopup = NSPopUpButton; 
+                fpsPopup = NSPopUpButton; 
+                gainSlider = NSSlider; 
+                gammaSlider = NSSlider; 
+                histogramView = NSImageView; 
+                hueSlider = NSSlider; 
+                inspectorDrawer = NSDrawer; 
+                ledCheckbox = id; 
+                manGainCheckbox = NSButton; 
+                orientationPopup = NSPopUpButton; 
+                previewView = NSImageView; 
+                reduceBandwidthCheckbox = id; 
+                registerAddress = NSTextField; 
+                registerMask = NSTextField; 
+                registerSensorCheckbox = NSButton; 
+                registerValueNew = NSTextField; 
+                registerValueOld = NSTextField; 
+                saturationSlider = NSSlider; 
+                settingsDrawer = NSDrawer; 
+                sharpnessSlider = NSSlider; 
+                shutterSlider = NSSlider; 
+                sizePopup = NSPopUpButton; 
+                statusText = NSTextField; 
+                whiteBalancePopup = NSPopUpButton; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSResponder; 
+        }, 
+        {
+            ACTIONS = {
+                movieCompressionChanged = id; 
+                moviePathBrowse = id; 
+                moviePathChanged = id; 
+                movieQualityChanged = id; 
+                movieTimeTypeChanged = id; 
+                openPrefsWindow = id; 
+                snapshotFormatChanged = id; 
+                snapshotQualityChanged = id; 
+            }; 
+            CLASS = MyPrefsWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                movieCompressionPopup = NSPopUpButton; 
+                moviePathField = NSTextField; 
+                movieQualitySlider = NSSlider; 
+                movieTimeTypePopup = NSPopUpButton; 
+                snapshotFormatPopup = NSPopUpButton; 
+                snapshotQualitySlider = NSSlider; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = MyToUCamProDriver; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = MyCameraDriver; 
+        }
+    ); 
+    IBVersion = 1; 
+}
